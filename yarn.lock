@@ -1668,10 +1668,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"odometer@npm:^0.4.8":
+"odometer@github:kabudafax/odometer":
   version: 0.4.8
-  resolution: "odometer@npm:0.4.8"
-  checksum: 10c0/46c40bccf248e663c90ad731c26aacff9c25fc845ab552193f5f67c17f7d5ca5cbf75b10a4ab0b65a2e18fa30d3bd0c80d039725a478460a796a3cfa1aeb2658
+  resolution: "odometer@https://github.com/kabudafax/odometer.git#commit=98110023f2a248b0e6a730bfbdbfb63969a2bc63"
+  checksum: 10c0/89c39af394cae59fd11615fc31d755e464edbf0cb4ceb0530434c34d473bdc848a2b9b8c1531d945cb026fc7d415d33c079aa05dc1a6b9c5dad276746826bc1d
   languageName: node
   linkType: hard
 
@@ -1818,9 +1818,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-odometerjs@workspace:.":
+"react-odometerjs-djdog@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-odometerjs@workspace:."
+  resolution: "react-odometerjs-djdog@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
     "@types/react": "npm:^18.0.26"
@@ -1828,7 +1828,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^6.20.0"
     eslint: "npm:^8.56.0"
     eslint-plugin-react: "npm:^7.33.2"
-    odometer: "npm:^0.4.8"
+    odometer: "github:kabudafax/odometer"
     react: "npm:>= 16.8.0"
     react-dom: "npm:>= 16.8.0"
     typescript: "npm:^5.3.3"
